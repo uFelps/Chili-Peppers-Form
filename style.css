@@ -1,0 +1,65 @@
+/*ARQUIVO CSS QUE ESTILIZA A PAGINA - INDEX.HTML*/
+body {
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form {
+  background: linear-gradient(#ed213a, #93291e);
+  color: white;
+  margin: auto;
+  padding: 50px;
+  width: 500px;
+  margin-top: 100px;
+  border: 2px solid red;
+  border-radius: 10px;
+}
+
+.title {
+  margin: 25px 0px 25px 0px;
+}
+
+.title h1 {
+  font-size: 45px;
+  margin: 0px;
+}
+
+.title p {
+  font-size: 25px;
+  margin: 0px;
+}
+
+.entradas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.input {
+  margin: 15px 15px 15px 15px;
+  font-size: 20px;
+}
+
+.input label {
+  display: block;
+}
+
+input,
+select {
+  width: 200px;
+  height: 30px;
+  border-radius: 7px;
+  font-size: 18px;
+}
+
+select {
+  width: 210px;
+  height: 30px;
+}
+
+.botao input{
+  margin: 20px 0px 0px 10px; 
+  background-color: white; 
+  color: black;
+
+}

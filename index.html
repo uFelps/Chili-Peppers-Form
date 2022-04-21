@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="chilipeppers.png">
+    <title>Chili Peppers Form</title>
+</head>
+<body>
+
+    <form action="cadastro.php" method="post" class="form">
+
+        <div class="title">
+            <img src="chilipeppers.png" width="100px" style="float: left; margin: 10px">
+            <h1>CHILI PEPPERS FORM</h1>
+            <p>Insira suas informações</p>
+        </div>
+
+        <div class="entradas">
+            <div class="nome input">
+                <label>Nome</label>
+                <input type="text" name="nome" required autofocus>
+            </div>
+    
+            <div class="sobrenome input">
+                <label>Sobrenome</label>
+                <input type="text" name="sobrenome" required>
+            </div>
+
+            <div class="idade input">
+                <label>Idade</label>
+                <input type="text" name="idade" required>
+            </div>
+
+            <div class="telefone input">
+                <label>Telefone</label>
+                <input type="text" name="telefone" required>
+            </div>
+
+            <div class="album input">
+                <label>Album favorito</label>
+                <select id="album" name="album">
+                    <option selected disabled>- Selecione -</option>
+                    <option>Unlimited Love</option>
+                    <option>The Getaway</option>
+                    <option>I'm With You</option>
+                    <option>Stadium Arcadium</option>
+                    <option>By the Way</option>
+                    <option>Californication</option>
+                    <option>Blood Sugar Sex Magik</option>
+                </select>
+            </div>
+
+            <div class="integrante input">
+                <label>Integrtante Favorito</label>
+                <select id="integrante" name="integrante">
+                    <option selected disabled>- Selecione -</option>
+                    <option>John Frusciante</option>
+                    <option>Chad Smith</option>
+                    <option>Flea</option>
+                    <option>Anthony Kieds</option>
+                    <option>Josh Klinghoffer</option>
+                </select>
+            </div>
+
+            <div class="botao">
+                <input type="submit" class="submit" value="Enviar">
+            </div>
+            
+        </div>
+
+    </form>
+</body>
+</html>
