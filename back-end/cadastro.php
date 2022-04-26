@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="cadastro.css">
-    <link rel="icon" href="/chilipeppers.png">
+    <link rel="icon" href="../img/chilipeppers.png">
     <title>Chili Peppers Form</title>
 </head>
 <body>
@@ -38,7 +38,7 @@
     ?>
 
     <div class="container">
-        <img src="chilipeppers.png" width="100px" style="float: left;">
+        <img src="../img/chilipeppers.png" width="100px" style="float: left;"/>
         <h1><?php echo $mensagem?></h1>
         <a href="index.html"><button class="button">Voltar</button></a>
     </div>
